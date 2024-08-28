@@ -3,7 +3,7 @@
 
 ## Overview
 
-This repository contains a predictive model for determining the survival of passengers in a ship disaster scenario, inspired by the infamous Titanic disaster. The goal of the project is to analyze the data and build a machine learning model that can predict whether a passenger survived based on various features.
+This repository contains three predictive models for determining the survival of passengers in a ship disaster scenario. The goal of the project is to analyze the data and build a CatBoost model that can predict whether a passenger survived based on various features.
 
 The project includes:
 
@@ -91,6 +91,7 @@ Ensure you have the following installed:
 
 4. **Run the notebook**:
    - Follow the step-by-step code blocks in the notebook to train the model and generate predictions.
+   - Tip: You can skip the Grid Search and Bayesian Optimization and just look at the outputted best parameters.
    - Modify and experiment with the code as needed.
 
 ### Submission
@@ -102,8 +103,8 @@ The final predictions for the test dataset are saved in a CSV file named `submis
 
 ## Results and Analysis
 
-- **Model Performance**: The notebook documents the model performance during cross-validation, showing accuracy and other relevant metrics.
-- **Final Accuracy**: The model achieved a development accuracy of 84.14%. However, the test submission accuracy was 77.27%, indicating room for improvement.
+- **Model Performance**: The notebook documents the models' performance during cross-validation, showing accuracy and other relevant metrics.
+- **Final Accuracy**: The best model achieved a development accuracy of 84.14%.
 
 ## Future Improvements
 
