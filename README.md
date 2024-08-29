@@ -43,22 +43,19 @@ The test dataset contains the same columns as the training data, **except for th
 
 ### Key Sections:
 
-1. **Data Exploration and Preprocessing**:
-   - Visualization of data distributions.
+1. **Data Exploration & Preprocessing, and Feature Engineering**:
+   - Visualization of data distributions with Matplotlib in an organized dashboard.
    - Handling missing values.
    - Encoding categorical variables.
-
-2. **Feature Engineering**:
-   - Creation of new features based on existing data.
    - Selection of the most relevant features for prediction.
 
 3. **Model Building**:
-   - Training multiple machine learning models.
-   - Hyperparameter tuning using techniques like Grid Search and Bayesian Optimization.
+   - Training CatBoost models.
+   - Hyperparameter tuning using Grid Search and Bayesian Optimization.
    - Model evaluation with cross-validation.
 
-4. **Prediction and Submission**:
-   - Application of the best model to the test data.
+4. **Prediction and Application**:
+   - Apply the best model to the test data.
    - Generation of the final predictions for submission.
 
 ## How to Use
@@ -111,10 +108,6 @@ The final predictions for the test dataset are saved in a CSV file named `submis
 - **Feature Engineering**: Explore more features or different ways to engineer existing features.
 - **Model Ensembling**: Combine predictions from multiple models to improve accuracy.
 - **Hyperparameter Tuning**: Further optimize model hyperparameters using more advanced techniques or wider parameter ranges.
-
-## Conclusion
-
-This project demonstrates the process of building a predictive model from data exploration to model evaluation. While the current model provides a good baseline, there are several opportunities for further enhancement.
 
 ## License
 
