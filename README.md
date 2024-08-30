@@ -11,6 +11,9 @@ The project includes:
 - **Training Data (`train.csv`)**: The dataset used to train the machine learning model.
 - **Test Data (`test.csv`)**: The dataset used to test the model's predictions, without the survival labels.
 
+## EDA Visualizations
+![Distributions](EDA%20visualizations.png)
+
 ## Project Structure
 
 ```
