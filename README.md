@@ -101,13 +101,7 @@ The final predictions for the test dataset are saved in a CSV file named `submis
 ## Results and Analysis
 
 - **Model Performance**: The notebook documents the models' performance during cross-validation, showing accuracy and other relevant metrics.
-- **Final Accuracy**: The best model achieved a development accuracy of 84.14%.
-
-## Future Improvements
-
-- **Feature Engineering**: Explore more features or different ways to engineer existing features.
-- **Model Ensembling**: Combine predictions from multiple models to improve accuracy.
-- **Hyperparameter Tuning**: Further optimize model hyperparameters using more advanced techniques or wider parameter ranges.
+- **Final Accuracy**: The best model achieved an accuracy of 83.80%.
 
 
 ## Acknowledgments
