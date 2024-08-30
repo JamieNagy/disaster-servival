@@ -109,9 +109,6 @@ The final predictions for the test dataset are saved in a CSV file named `submis
 - **Model Ensembling**: Combine predictions from multiple models to improve accuracy.
 - **Hyperparameter Tuning**: Further optimize model hyperparameters using more advanced techniques or wider parameter ranges.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
