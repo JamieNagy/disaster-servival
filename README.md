@@ -91,9 +91,9 @@ Ensure you have the following installed:
    - Tip: You can skip the Grid Search and Bayesian Optimization and just look at the outputted best parameters.
    - Modify and experiment with the code as needed.
 
-### Submission
+### Application
 
-The final predictions for the test dataset are saved in a CSV file named `submission.csv`. This file contains two columns:
+The final predictions for the test dataset will be saved in a CSV file named `submission.csv`. This file contains two columns:
 
 - `PassengerId`: The unique identifier for each passenger.
 - `Survived`: The predicted survival status.
